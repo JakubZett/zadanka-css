@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <ol>
+        <h1>
+            <li>
+            Składnia teoretyczna → otoczony ramką (może być tabela jedno
+            komórkowa, konieczne wcięcia).
+            </li>
+        </h1>
+        <div style="border: 2px blue solid">
+            selektor {<br>
+            &nbsp;&nbsp;cecha1: wartość1;<br>
+            &nbsp;&nbsp;cecha2: wartość2;<br>
+            ... }
+        </div>
+        <h1>
+            <li>
+            Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to
+            odpowiedzialny oraz ile razy może on występować w dokumencie, jako
+            podłączenie stylu CSS?
+            </li>
+        </h1>
+        Styl zewnętrzny wstawiany jest w sekcji &lt;head&gt; dokumentu HTML za
+        pomocą znacznika &lt;link&gt;<br>
+        Znacznik &lt;link&gt; może wystąpić wiele razy w dokumencie, podłączając
+        do niego wiele arkuszy styli CSS.
+        <h1>
+            <li>
+            Jak jest najprostsza forma wstawiania stylu zewnętrznego → otoczony
+            ramką (może być tabela jedno komórkowa?
+            </li>
+        </h1>
+        <div style="border: 2px blue solid">
+            &lt;head&gt;<br>
+            &nbsp;&nbsp;&lt;link&gt; rel="stylesheet"
+            href="style.css"&lt;/link&gt;<br>
+            &lt;/head&gt;
+        </div>
+        <h1>
+            <li>
+            Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz
+            jaka zasad musi być zachowana przy większej ilości dołączanych styli?
+            </li>
+        </h1>
+        Do jednego dokumentu HTML można dołączyć dowolną liczbę arkuszy styli.
+        Należy jednak zachować kolejność ich dołączania, ponieważ style z arkuszy
+        później dołączonych mają priorytet nad stylami z arkuszy wcześniej
+        dołączonych.
+        <h1>
+            <li>
+            Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te
+            same style są definiowane w różnych arkuszach styli podłączone do tego
+            samego arkusza.
+            </li>
+        </h1>
+        W przypadku konfliktów, gdy te same style są definiowane w różnych
+        arkuszach, priorytet ma styl zdefiniowany później.
+        <h1>
+            <li>
+            Jak są tworzone i edytowane pliki arkuszy z użyciem edytora
+            tekstowego?
+            </li>
+        </h1>
+        Pliki arkuszy styli można tworzyć i edytować w dowolnym edytorze
+        tekstowym, np. Notepadzie++, Sublime Text, Visual Studio Code.
+        <h1>
+            <li>
+            Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego
+            edytora CSS?
+            </li>
+        </h1>
+        Istnieją specjalne edytory CSS, np. Firebug, Chrome DevTools, które
+        oferują dodatkowe funkcje ułatwiające tworzenie i edycję arkuszy styli,
+        np. podświetlanie składni, auto uzupełnianie, sprawdzanie błędów.
+        <h1>
+            <li>
+            Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?
+            </li>
+        </h1>
+        Pliki arkuszy styli posiadają rozszerzenie .css.
+        <h1>
+            <li>
+            Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem
+            wyliczenia)?
+            </li>
+        </h1>
+        <ol>
+            <li>
+            Łatwość zarządzania: Style są zdefiniowane w jednym miejscu, co
+            ułatwia ich modyfikację i aktualizację.
+            </li>
+            <li>
+            Zwiększona wydajność: Przeglądarka musi pobrać arkusz stylów tylko
+            raz, co przyspiesza ładowanie strony.
+            </li>
+        </ol>
+        <h1>
+            <li>Uwagi na temat pisania w CSS.</li>
+        </h1>
+        <ul>
+            <li>Należy stosować spójne nazewnictwo klas i identyfikatorów.</li>
+            <li>Należy unikać nadmiarowego zagnieżdżania selektorów.</li>
+            <li>
+            Należy używać krótkich i zrozumiałych nazw właściwości i wartości.
+            </li>
+            <li>Należy komentować kod CSS, aby ułatwić jego zrozumienie.</li>
+        </ul>
+        </ol>
+    </body>
+</html>
